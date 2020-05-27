@@ -1,0 +1,88 @@
+form {
+    width: 60%;
+    margin: auto;
+}
+
+form h3 {
+    color: white;
+    font-size: 35px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #2F2E41;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=submit]:hover {
+    opacity: 0.7;
+}
+
+.section-content {
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.section-content h4 {
+    margin-left: 25px;
+    margin-top: -160px;
+    width: 100%;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.section-content button {
+    margin-left: 25px;
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
